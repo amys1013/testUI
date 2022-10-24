@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <router-view />
+  <!-- <div>
       <t-button>花花的世界</t-button>
       <t-button type="primary">花花的世界</t-button>
       <t-button type="success">花花的世界</t-button>
@@ -10,8 +10,8 @@
     <div>
       {{val}}
       <t-input v-model="val"></t-input>
-    </div>
-  </div>
+    </div> -->
+
 </template>
 
 <script setup>
@@ -23,5 +23,10 @@ const val = ref("");
 
 
 <style scoped>
+
+#app{
+  width: 100%;
+  height: 100%;
+}
 
 </style>
